@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="185" id="KGk-i7-Jjw" customClass="DayCell" customModule="ExpandableRecipe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="184.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Si-qJ-f1o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="135" id="Jdi-FO-Z21"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amS-Ge-BfU">
+                        <rect key="frame" x="5" y="42.5" width="310" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="aoT-Ld-KmO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-rr-FIA">
+                        <rect key="frame" x="0.0" y="135" width="320" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKc-tx-hMU">
+                                <rect key="frame" x="0.0" y="49" width="320" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="3ll-je-5IB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uKc-tx-hMU" secondAttribute="bottom" id="LXk-Y5-MFD"/>
+                            <constraint firstAttribute="height" constant="50" id="Rma-ll-Nn8"/>
+                            <constraint firstAttribute="trailing" secondItem="uKc-tx-hMU" secondAttribute="trailing" id="dEH-s5-3uS"/>
+                            <constraint firstItem="uKc-tx-hMU" firstAttribute="leading" secondItem="NxI-rr-FIA" secondAttribute="leading" id="hOD-j9-Sf8"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaN-IP-0wV">
+                        <rect key="frame" x="145" y="95" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="n8y-LV-HbL"/>
+                            <constraint firstAttribute="width" constant="30" id="sc7-Bc-Our"/>
+                        </constraints>
+                        <state key="normal" title="&lt;&gt;">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="didClickOnExpand:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SoV-ty-skn"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="NxI-rr-FIA" firstAttribute="top" secondItem="1Si-qJ-f1o" secondAttribute="bottom" id="0PZ-mU-Bpf"/>
+                    <constraint firstItem="LaN-IP-0wV" firstAttribute="centerX" secondItem="amS-Ge-BfU" secondAttribute="centerX" id="51v-cS-nYp"/>
+                    <constraint firstItem="NxI-rr-FIA" firstAttribute="top" secondItem="LaN-IP-0wV" secondAttribute="bottom" constant="10" id="QjE-Lc-T93"/>
+                    <constraint firstItem="NxI-rr-FIA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Yxc-RR-bSH"/>
+                    <constraint firstAttribute="trailing" secondItem="amS-Ge-BfU" secondAttribute="trailing" constant="5" id="bND-wl-tHN"/>
+                    <constraint firstItem="amS-Ge-BfU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="dRt-V8-93I"/>
+                    <constraint firstAttribute="trailing" secondItem="1Si-qJ-f1o" secondAttribute="trailing" id="iUU-lq-qjB"/>
+                    <constraint firstItem="amS-Ge-BfU" firstAttribute="centerY" secondItem="1Si-qJ-f1o" secondAttribute="centerY" id="jqe-vh-9xS"/>
+                    <constraint firstItem="1Si-qJ-f1o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="khS-mw-zcU"/>
+                    <constraint firstAttribute="trailing" secondItem="NxI-rr-FIA" secondAttribute="trailing" id="v2C-Mi-5lV"/>
+                    <constraint firstItem="1Si-qJ-f1o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ysK-CQ-89u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnExpand" destination="LaN-IP-0wV" id="H4A-NW-Oja"/>
+                <outlet property="imgDayRecipe" destination="1Si-qJ-f1o" id="SUT-3i-rxP"/>
+                <outlet property="lblDayIndex" destination="amS-Ge-BfU" id="6w6-YI-jMZ"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="-29"/>
+        </tableViewCell>
+    </objects>
+</document>

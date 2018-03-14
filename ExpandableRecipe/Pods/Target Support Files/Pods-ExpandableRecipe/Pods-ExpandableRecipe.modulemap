@@ -1,0 +1,6 @@
+framework module Pods_ExpandableRecipe {
+  umbrella header "Pods-ExpandableRecipe-umbrella.h"
+
+  export *
+  module * { export * }
+}
