@@ -6,6 +6,7 @@ target 'ExpandableRecipe' do
   use_frameworks!
 
   # Pods for ExpandableRecipe
-pod 'YNExpandableCell'
+  #pod 'YNExpandableCell'
+  #pod 'ExpandableCell'
 
 end

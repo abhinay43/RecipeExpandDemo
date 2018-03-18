@@ -22,9 +22,20 @@ class DayCell: UITableViewCell
     
     //MARK:- Public Var
     weak var delegate:DayCellDelegate?
+    var isExpanded = false{
+        didSet{
+            var image = UIImage(named:"down")
+            
+            if isExpanded{
+                image = UIImage(named:"up")
+            }
+            btnExpand .setBackgroundImage(image, for: .normal)
+        }
+    }
     
     //MARK:- View Life Cycle
-    override func awakeFromNib() {
+    override func awakeFromNib()
+    {
         super.awakeFromNib()
         // Initialization code
         let tag = "\(self.tag + 1)"
@@ -32,7 +43,10 @@ class DayCell: UITableViewCell
     }
 
     //MARK:- IBAction
-    @IBAction func didClickOnExpand(_ sender: Any) {
+    @IBAction func didClickOnExpand(_ sender: Any)
+    {
+        self.delegate?.didClickOnExpand(tag: self.tag)
+        isExpanded = !isExpanded
     }
     
 }

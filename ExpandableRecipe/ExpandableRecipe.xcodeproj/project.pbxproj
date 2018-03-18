@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C59F75F88A9936285539302 /* Pods_ExpandableRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAB961784B40DBBB62A2052 /* Pods_ExpandableRecipe.framework */; };
+		3811138F205E8850003316E1 /* WeekDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811138E205E8850003316E1 /* WeekDayVC.swift */; };
+		38111392205E8AB4003316E1 /* WeekDayRecipeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111391205E8AB4003316E1 /* WeekDayRecipeHeader.swift */; };
+		38111394205E8ABE003316E1 /* WeekDayRecipeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38111393205E8ABE003316E1 /* WeekDayRecipeHeader.xib */; };
 		3815C5C420592A7300F5582E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815C5C320592A7300F5582E /* AppDelegate.swift */; };
-		3815C5C620592A7300F5582E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815C5C520592A7300F5582E /* ViewController.swift */; };
 		3815C5C920592A7300F5582E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3815C5C720592A7300F5582E /* Main.storyboard */; };
 		3815C5CB20592A7300F5582E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3815C5CA20592A7300F5582E /* Assets.xcassets */; };
 		3815C5CE20592A7300F5582E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3815C5CC20592A7300F5582E /* LaunchScreen.storyboard */; };
@@ -23,9 +25,11 @@
 
 /* Begin PBXFileReference section */
 		21E74EE0FA9F8D5FA12A8536 /* Pods-ExpandableRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandableRecipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandableRecipe/Pods-ExpandableRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		3811138E205E8850003316E1 /* WeekDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayVC.swift; sourceTree = "<group>"; };
+		38111391205E8AB4003316E1 /* WeekDayRecipeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayRecipeHeader.swift; sourceTree = "<group>"; };
+		38111393205E8ABE003316E1 /* WeekDayRecipeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekDayRecipeHeader.xib; sourceTree = "<group>"; };
 		3815C5C020592A7300F5582E /* ExpandableRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3815C5C320592A7300F5582E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3815C5C520592A7300F5582E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3815C5C820592A7300F5582E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3815C5CA20592A7300F5582E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3815C5CD20592A7300F5582E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38111390205E8A77003316E1 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				38111391205E8AB4003316E1 /* WeekDayRecipeHeader.swift */,
+				38111393205E8ABE003316E1 /* WeekDayRecipeHeader.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
 		3815C5B720592A7300F5582E = {
 			isa = PBXGroup;
 			children = (
@@ -73,10 +86,11 @@
 		3815C5C220592A7300F5582E /* ExpandableRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				38111390205E8A77003316E1 /* xib */,
 				3815C5C720592A7300F5582E /* Main.storyboard */,
+				3815C5C320592A7300F5582E /* AppDelegate.swift */,
 				3815C5D620592A8000F5582E /* ViewController */,
 				3815C5D520592A7B00F5582E /* Cell */,
-				3815C5C320592A7300F5582E /* AppDelegate.swift */,
 				3815C5CA20592A7300F5582E /* Assets.xcassets */,
 				3815C5CC20592A7300F5582E /* LaunchScreen.storyboard */,
 				3815C5CF20592A7300F5582E /* Info.plist */,
@@ -100,7 +114,7 @@
 		3815C5D620592A8000F5582E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3815C5C520592A7300F5582E /* ViewController.swift */,
+				3811138E205E8850003316E1 /* WeekDayVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,6 +203,7 @@
 				3815C5CB20592A7300F5582E /* Assets.xcassets in Resources */,
 				3815C5C920592A7300F5582E /* Main.storyboard in Resources */,
 				3850904C20598F8E000EA77F /* DayCell.xib in Resources */,
+				38111394205E8ABE003316E1 /* WeekDayRecipeHeader.xib in Resources */,
 				3815C5DE2059332300F5582E /* DayTimeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,10 +218,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ExpandableRecipe/Pods-ExpandableRecipe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
 				"${BUILT_PRODUCTS_DIR}/YNExpandableCell/YNExpandableCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNExpandableCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3815C5C620592A7300F5582E /* ViewController.swift in Sources */,
 				3815C5DD2059332300F5582E /* DayTimeCell.swift in Sources */,
 				3815C5D920592E4B00F5582E /* DayCell.swift in Sources */,
 				3815C5E12059342600F5582E /* TimeCell.swift in Sources */,
 				3815C5C420592A7300F5582E /* AppDelegate.swift in Sources */,
+				38111392205E8AB4003316E1 /* WeekDayRecipeHeader.swift in Sources */,
+				3811138F205E8850003316E1 /* WeekDayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

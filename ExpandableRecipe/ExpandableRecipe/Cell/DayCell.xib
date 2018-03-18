@@ -52,13 +52,13 @@
                             <constraint firstItem="uKc-tx-hMU" firstAttribute="leading" secondItem="NxI-rr-FIA" secondAttribute="leading" id="hOD-j9-Sf8"/>
                         </constraints>
                     </view>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaN-IP-0wV">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaN-IP-0wV">
                         <rect key="frame" x="145" y="95" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="n8y-LV-HbL"/>
                             <constraint firstAttribute="width" constant="30" id="sc7-Bc-Our"/>
                         </constraints>
-                        <state key="normal" title="&lt;&gt;">
+                        <state key="normal" backgroundImage="down">
                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </state>
                         <connections>
@@ -90,4 +90,7 @@
             <point key="canvasLocation" x="20" y="-29"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="down" width="256" height="256"/>
+    </resources>
 </document>

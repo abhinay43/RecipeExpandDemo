@@ -7,109 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16F520FCE401BBF76A13BB20C0AFED28 /* YNTableViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA80C5EED195B8CBC37A47EC5602A85 /* YNTableViewExtenstion.swift */; };
-		18E69890BDEA46AAC7EEEE8C7A2128D8 /* YNExpandableCell.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394FCEFB540AF32C7F88EB340A3EB626 /* YNExpandableCell.xcassets */; };
-		1FDD03494C3023172894B458E6238752 /* YNExpandableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 360C870159B5351BC87F60DC44F69C55 /* YNExpandableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23624CF577E44155EE110A99FA3AD981 /* YNExpandableDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7B8C93308D8F8FEB9CFC94D40ACBB /* YNExpandableDeprecated.swift */; };
-		3D1DDC9DB850475854399FB51465F542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		4CFA3A04BABF95A188A0BF0AE968CE6F /* YNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB269E89CCB4948F793549CF3B071861 /* YNTableViewCell.swift */; };
-		5E015E389E922BB0B98D2BB74DAA4F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		5F2853B1A003FB45BC66E59A8C2EC6FE /* YNExpandableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B338262F75BCE2773A20C157675132 /* YNExpandableCell-dummy.m */; };
-		679A7DDCAAF2270C14FEEE4EDBBC9524 /* Pods-ExpandableRecipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFABAE86042D779A08AC34A88BEFE02 /* Pods-ExpandableRecipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E4A731610AAECDB23477EA8DB2D1ED /* YNTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CFB40E48C7839A182DCF644FDFDE93 /* YNTableViewDelegate.swift */; };
-		73399599295D4FCC4E4694EE50FFCF60 /* YNTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1FA566B5761667408013CF02F546EA /* YNTableView.swift */; };
-		7D636D4C64203A4EE3E71FB063709B50 /* Pods-ExpandableRecipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62954C17DD61F0175035D37E89AE4E /* Pods-ExpandableRecipe-dummy.m */; };
-		D6DB0A6871780CF5B31A162325DF182E /* YNExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C6F3D1171D389256CBA7F98E8981C /* YNExpandableCell.swift */; };
-		F87E1DFC673168351AF121713B4CC36F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4CDE7D994CD08E69ECC4691BBBC924DE /* Pods-ExpandableRecipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62954C17DD61F0175035D37E89AE4E /* Pods-ExpandableRecipe-dummy.m */; };
+		B57C452ECF77B7B9C079042CCACA08D8 /* Pods-ExpandableRecipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFABAE86042D779A08AC34A88BEFE02 /* Pods-ExpandableRecipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DED18C3ACEF41607CA1A24E535952A9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A11AC8789E66BF95DBDD0A628985EBD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 266F432B0FD82BB9958CBD6F7A56DC44;
-			remoteInfo = YNExpandableCell;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		12485CDFDC074C7163F1E9464FCDC239 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B1FA566B5761667408013CF02F546EA /* YNTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNTableView.swift; path = YNExpandableCell/YNTableView.swift; sourceTree = "<group>"; };
-		28E39E4AED0ABAB9A52FD737852F4798 /* YNExpandableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNExpandableCell-prefix.pch"; sourceTree = "<group>"; };
 		2C62954C17DD61F0175035D37E89AE4E /* Pods-ExpandableRecipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpandableRecipe-dummy.m"; sourceTree = "<group>"; };
 		2F93C95B609DE987C0A0738E215E338D /* Pods-ExpandableRecipe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpandableRecipe-acknowledgements.plist"; sourceTree = "<group>"; };
-		360C870159B5351BC87F60DC44F69C55 /* YNExpandableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNExpandableCell-umbrella.h"; sourceTree = "<group>"; };
-		394FCEFB540AF32C7F88EB340A3EB626 /* YNExpandableCell.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = YNExpandableCell.xcassets; path = YNExpandableCell/YNExpandableCell.xcassets; sourceTree = "<group>"; };
-		3E10DDFDEB781FBD8ECF9F2144E842F7 /* Pods_ExpandableRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExpandableRecipe.framework; path = "Pods-ExpandableRecipe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B604618EB68CA4FA02373E10B47EA4B /* Pods-ExpandableRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpandableRecipe.debug.xcconfig"; sourceTree = "<group>"; };
-		5AA7B8C93308D8F8FEB9CFC94D40ACBB /* YNExpandableDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNExpandableDeprecated.swift; path = YNExpandableCell/YNExpandableDeprecated.swift; sourceTree = "<group>"; };
-		648A3A35E35900A499730224EC1601B0 /* YNExpandableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNExpandableCell.xcconfig; sourceTree = "<group>"; };
-		69E1DA98D6AA1E7CF1B21FB34846998D /* YNExpandableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YNExpandableCell.modulemap; sourceTree = "<group>"; };
-		6DA80C5EED195B8CBC37A47EC5602A85 /* YNTableViewExtenstion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNTableViewExtenstion.swift; path = YNExpandableCell/YNTableViewExtenstion.swift; sourceTree = "<group>"; };
-		7E9199497CAE18760076A4A2482959B6 /* YNExpandableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNExpandableCell.framework; path = YNExpandableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7849F27D88B57D8B959035A515B4DD19 /* Pods_ExpandableRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExpandableRecipe.framework; path = "Pods-ExpandableRecipe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9807E585E62384DE067DBC8D1F8C30AA /* Pods-ExpandableRecipe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExpandableRecipe-frameworks.sh"; sourceTree = "<group>"; };
-		A2CFB40E48C7839A182DCF644FDFDE93 /* YNTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNTableViewDelegate.swift; path = YNExpandableCell/YNTableViewDelegate.swift; sourceTree = "<group>"; };
 		AC29F821A14D314618D95F283A33EC05 /* Pods-ExpandableRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpandableRecipe.release.xcconfig"; sourceTree = "<group>"; };
-		B0B338262F75BCE2773A20C157675132 /* YNExpandableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNExpandableCell-dummy.m"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BA5C6F3D1171D389256CBA7F98E8981C /* YNExpandableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNExpandableCell.swift; path = YNExpandableCell/YNExpandableCell.swift; sourceTree = "<group>"; };
 		BC54983C0560A794958A372193C15DBD /* Pods-ExpandableRecipe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExpandableRecipe-resources.sh"; sourceTree = "<group>"; };
 		C50CAAD89B96C1F33EB69598286F904E /* Pods-ExpandableRecipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExpandableRecipe.modulemap"; sourceTree = "<group>"; };
 		C7BD2AF8D58503AFF31A18AFD38B9A22 /* Pods-ExpandableRecipe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpandableRecipe-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB269E89CCB4948F793549CF3B071861 /* YNTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNTableViewCell.swift; path = YNExpandableCell/YNTableViewCell.swift; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD95F392DCDD0CB6AC0D3682568B1186 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEFABAE86042D779A08AC34A88BEFE02 /* Pods-ExpandableRecipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpandableRecipe-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		519049CB7470B61E15BBF5EA61D747E8 /* Frameworks */ = {
+		3B37AA7D9C37C7253843F241788540EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E015E389E922BB0B98D2BB74DAA4F78 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8D1558E9E77519B0B560EF01824E9AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F87E1DFC673168351AF121713B4CC36F /* Foundation.framework in Frameworks */,
-				3D1DDC9DB850475854399FB51465F542 /* UIKit.framework in Frameworks */,
+				DED18C3ACEF41607CA1A24E535952A9E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29D6329BE13EFCAE23673E146975A54F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				394FCEFB540AF32C7F88EB340A3EB626 /* YNExpandableCell.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		48073401BA8838A760251C9E9E8BDD4D /* Pods-ExpandableRecipe */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,11 +58,10 @@
 			path = "Target Support Files/Pods-ExpandableRecipe";
 			sourceTree = "<group>";
 		};
-		4FE7D007357864B1FCECCFA66FB4AE38 /* Products */ = {
+		5E610E149074DF9A1797ADC295AA0823 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E10DDFDEB781FBD8ECF9F2144E842F7 /* Pods_ExpandableRecipe.framework */,
-				7E9199497CAE18760076A4A2482959B6 /* YNExpandableCell.framework */,
+				7849F27D88B57D8B959035A515B4DD19 /* Pods_ExpandableRecipe.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,49 +70,26 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				A7908957080FC356A25475523B4D0AFE /* Pods */,
-				4FE7D007357864B1FCECCFA66FB4AE38 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5E610E149074DF9A1797ADC295AA0823 /* Products */,
 				E2324684D9FA912D64CB02A65F38562A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8BA19D55AC4E9635B186312F65DFFBB1 /* YNExpandableCell */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA5C6F3D1171D389256CBA7F98E8981C /* YNExpandableCell.swift */,
-				5AA7B8C93308D8F8FEB9CFC94D40ACBB /* YNExpandableDeprecated.swift */,
-				1B1FA566B5761667408013CF02F546EA /* YNTableView.swift */,
-				CB269E89CCB4948F793549CF3B071861 /* YNTableViewCell.swift */,
-				A2CFB40E48C7839A182DCF644FDFDE93 /* YNTableViewDelegate.swift */,
-				6DA80C5EED195B8CBC37A47EC5602A85 /* YNTableViewExtenstion.swift */,
-				29D6329BE13EFCAE23673E146975A54F /* Resources */,
-				8D0A063EF7B2C5C152930394F04053DE /* Support Files */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = YNExpandableCell;
-			path = YNExpandableCell;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8D0A063EF7B2C5C152930394F04053DE /* Support Files */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD95F392DCDD0CB6AC0D3682568B1186 /* Info.plist */,
-				69E1DA98D6AA1E7CF1B21FB34846998D /* YNExpandableCell.modulemap */,
-				648A3A35E35900A499730224EC1601B0 /* YNExpandableCell.xcconfig */,
-				B0B338262F75BCE2773A20C157675132 /* YNExpandableCell-dummy.m */,
-				28E39E4AED0ABAB9A52FD737852F4798 /* YNExpandableCell-prefix.pch */,
-				360C870159B5351BC87F60DC44F69C55 /* YNExpandableCell-umbrella.h */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/YNExpandableCell";
-			sourceTree = "<group>";
-		};
-		A7908957080FC356A25475523B4D0AFE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8BA19D55AC4E9635B186312F65DFFBB1 /* YNExpandableCell */,
-			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E2324684D9FA912D64CB02A65F38562A /* Targets Support Files */ = {
@@ -197,59 +103,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		016882C1896A5A64E0280E4F7B28E0E1 /* Headers */ = {
+		8CF20A89953B19EDFFA3D8E2F6FCC4CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679A7DDCAAF2270C14FEEE4EDBBC9524 /* Pods-ExpandableRecipe-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31FD96C086E417CF56E466ACD38F264F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FDD03494C3023172894B458E6238752 /* YNExpandableCell-umbrella.h in Headers */,
+				B57C452ECF77B7B9C079042CCACA08D8 /* Pods-ExpandableRecipe-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		266F432B0FD82BB9958CBD6F7A56DC44 /* YNExpandableCell */ = {
+		FDD4E2B27CAEE7E79C8644C322A55858 /* Pods-ExpandableRecipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5834C22A25053CE2285AE3B4F0857BE /* Build configuration list for PBXNativeTarget "YNExpandableCell" */;
+			buildConfigurationList = A55B8174778BD15A1063651CAB7CD703 /* Build configuration list for PBXNativeTarget "Pods-ExpandableRecipe" */;
 			buildPhases = (
-				F3256BD5D812A357C57CAEEC649147A5 /* Sources */,
-				B8D1558E9E77519B0B560EF01824E9AA /* Frameworks */,
-				9260D636E4C0B8C652985D43356F4FEA /* Resources */,
-				31FD96C086E417CF56E466ACD38F264F /* Headers */,
+				D5FBB38C78129A89BD43ED4F1F8CDD87 /* Sources */,
+				3B37AA7D9C37C7253843F241788540EE /* Frameworks */,
+				8CF20A89953B19EDFFA3D8E2F6FCC4CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = YNExpandableCell;
-			productName = YNExpandableCell;
-			productReference = 7E9199497CAE18760076A4A2482959B6 /* YNExpandableCell.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		58CE3AD431B5CEDC626255A2A5174438 /* Pods-ExpandableRecipe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6ADE5EC1C94374543365EE06E711F7D8 /* Build configuration list for PBXNativeTarget "Pods-ExpandableRecipe" */;
-			buildPhases = (
-				B53CE967379546E7DC445339173321EF /* Sources */,
-				519049CB7470B61E15BBF5EA61D747E8 /* Frameworks */,
-				016882C1896A5A64E0280E4F7B28E0E1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8C8002F81F69354D5562B8CAA416A439 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExpandableRecipe";
 			productName = "Pods-ExpandableRecipe";
-			productReference = 3E10DDFDEB781FBD8ECF9F2144E842F7 /* Pods_ExpandableRecipe.framework */;
+			productReference = 7849F27D88B57D8B959035A515B4DD19 /* Pods_ExpandableRecipe.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -269,96 +148,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4FE7D007357864B1FCECCFA66FB4AE38 /* Products */;
+			productRefGroup = 5E610E149074DF9A1797ADC295AA0823 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58CE3AD431B5CEDC626255A2A5174438 /* Pods-ExpandableRecipe */,
-				266F432B0FD82BB9958CBD6F7A56DC44 /* YNExpandableCell */,
+				FDD4E2B27CAEE7E79C8644C322A55858 /* Pods-ExpandableRecipe */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		9260D636E4C0B8C652985D43356F4FEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18E69890BDEA46AAC7EEEE8C7A2128D8 /* YNExpandableCell.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B53CE967379546E7DC445339173321EF /* Sources */ = {
+		D5FBB38C78129A89BD43ED4F1F8CDD87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D636D4C64203A4EE3E71FB063709B50 /* Pods-ExpandableRecipe-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3256BD5D812A357C57CAEEC649147A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F2853B1A003FB45BC66E59A8C2EC6FE /* YNExpandableCell-dummy.m in Sources */,
-				D6DB0A6871780CF5B31A162325DF182E /* YNExpandableCell.swift in Sources */,
-				23624CF577E44155EE110A99FA3AD981 /* YNExpandableDeprecated.swift in Sources */,
-				73399599295D4FCC4E4694EE50FFCF60 /* YNTableView.swift in Sources */,
-				4CFA3A04BABF95A188A0BF0AE968CE6F /* YNTableViewCell.swift in Sources */,
-				67E4A731610AAECDB23477EA8DB2D1ED /* YNTableViewDelegate.swift in Sources */,
-				16F520FCE401BBF76A13BB20C0AFED28 /* YNTableViewExtenstion.swift in Sources */,
+				4CDE7D994CD08E69ECC4691BBBC924DE /* Pods-ExpandableRecipe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8C8002F81F69354D5562B8CAA416A439 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YNExpandableCell;
-			target = 266F432B0FD82BB9958CBD6F7A56DC44 /* YNExpandableCell */;
-			targetProxy = A11AC8789E66BF95DBDD0A628985EBD5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0E037DB972D82E12356899D5C63DA6F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B604618EB68CA4FA02373E10B47EA4B /* Pods-ExpandableRecipe.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ExpandableRecipe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ExpandableRecipe/Pods-ExpandableRecipe.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ExpandableRecipe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,9 +224,9 @@
 			};
 			name = Release;
 		};
-		582879D98304DE1A287F851AA0B51078 /* Debug */ = {
+		2618F0B810239AB07F4749AC965CF95A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648A3A35E35900A499730224EC1601B0 /* YNExpandableCell.xcconfig */;
+			baseConfigurationReference = AC29F821A14D314618D95F283A33EC05 /* Pods-ExpandableRecipe.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -427,23 +237,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNExpandableCell/YNExpandableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNExpandableCell/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExpandableRecipe/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YNExpandableCell/YNExpandableCell.modulemap";
-				PRODUCT_NAME = YNExpandableCell;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExpandableRecipe/Pods-ExpandableRecipe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExpandableRecipe;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -505,9 +317,9 @@
 			};
 			name = Debug;
 		};
-		C501411922A9BE5E3CB85DDDEA4C4B15 /* Release */ = {
+		D818B6BDF88C5C3FE9730CECB933BFB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC29F821A14D314618D95F283A33EC05 /* Pods-ExpandableRecipe.release.xcconfig */;
+			baseConfigurationReference = 4B604618EB68CA4FA02373E10B47EA4B /* Pods-ExpandableRecipe.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -531,45 +343,11 @@
 				PRODUCT_NAME = Pods_ExpandableRecipe;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		DE0A58FEE3FA9E569A9B4EEA10001830 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648A3A35E35900A499730224EC1601B0 /* YNExpandableCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNExpandableCell/YNExpandableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNExpandableCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YNExpandableCell/YNExpandableCell.modulemap";
-				PRODUCT_NAME = YNExpandableCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -583,20 +361,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ADE5EC1C94374543365EE06E711F7D8 /* Build configuration list for PBXNativeTarget "Pods-ExpandableRecipe" */ = {
+		A55B8174778BD15A1063651CAB7CD703 /* Build configuration list for PBXNativeTarget "Pods-ExpandableRecipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E037DB972D82E12356899D5C63DA6F6 /* Debug */,
-				C501411922A9BE5E3CB85DDDEA4C4B15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5834C22A25053CE2285AE3B4F0857BE /* Build configuration list for PBXNativeTarget "YNExpandableCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				582879D98304DE1A287F851AA0B51078 /* Debug */,
-				DE0A58FEE3FA9E569A9B4EEA10001830 /* Release */,
+				D818B6BDF88C5C3FE9730CECB933BFB2 /* Debug */,
+				2618F0B810239AB07F4749AC965CF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
